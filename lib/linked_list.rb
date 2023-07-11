@@ -1,9 +1,8 @@
-require './lib/node'
-require './lib/linked_list' 
+require "./lib/node"
 class LinkedList
-    attr_accessor:head
-    def initialize(head)
-    require 'pry' binding.pry
-        @head=nil
+    attr_accessor:head,:next_node
+    def initialize(next_node)
+        @head=head
+        next_node=nil 
     end 
 end 
