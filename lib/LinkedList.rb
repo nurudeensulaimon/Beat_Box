@@ -1,7 +1,6 @@
-require '.lib/LinkedList'
-require '.lib/node'
+class LinkedList
+    attr_reader
+    def initialize
+    end 
+end 
 
-describe LinkedList do 
-    describe "initialize" do 
-        it "is an instance of linkedlist" do
-            list=LinkedList.new

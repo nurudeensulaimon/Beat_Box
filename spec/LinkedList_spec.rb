@@ -1,6 +1,10 @@
-RSpec.describe Node do
-    it has a #next_node << nil" do 
-        node = Node.new("plop")
-        expect(node.next_node).to eq(nil)
-      end 
-    end 
+require '.lib/LinkedList'
+require '.lib/node'
+
+describe LinkedList do 
+    describe "initialize" do 
+        it "is an instance of linkedlist" do
+            list=LinkedList.new
+        end 
+      end
+    end
