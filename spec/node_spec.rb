@@ -10,7 +10,12 @@ RSpec.describe Node do
     node=Node.new("plop")
     expect(node.data).to  eq("plop")
   end 
+  it "it adds another node" do
+    node=Node.new("plop")
+    expect(node.next_node).to eq(nil)
+  end
 end 
+
 end 
 
 
