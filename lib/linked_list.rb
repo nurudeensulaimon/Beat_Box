@@ -1,8 +1,13 @@
 require "./lib/node"
 class LinkedList
-    attr_accessor:head,:next_node
-    def initialize(next_node)
-        @head=head
-        next_node=nil 
+    attr_accessor:head
+    def initialize
+        @head=nil
+    end 
+    def append(data) 
+        @head=Node.new(data)
+        data
+        
     end 
 end 
+
